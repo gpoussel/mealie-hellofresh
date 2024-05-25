@@ -43,7 +43,7 @@ devDependencies:
     version: 2.10.0(eslint@9.3.0)(typescript@5.4.5)
   eslint-plugin-regexp:
     specifier: ^2.5.0
-    version: 2.5.0(eslint@9.3.0)
+    version: 2.6.0(eslint@9.3.0)
   eslint-plugin-yml:
     specifier: ^1.14.0
     version: 1.14.0(eslint@9.3.0)
@@ -2803,8 +2803,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-regexp@2.5.0(eslint@9.3.0):
-    resolution: {integrity: sha512-I7vKcP0o75WS5SHiVNXN+Eshq49sbrweMQIuqSL3AId9AwDe9Dhbfug65vw64LxmOd4v+yf5l5Xt41y9puiq0g==}
+  /eslint-plugin-regexp@2.6.0(eslint@9.3.0):
+    resolution: {integrity: sha512-FCL851+kislsTEQEMioAlpDuK5+E5vs0hi1bF8cFlPlHcEjeRhuAzEsGikXRreE+0j4WhW2uO54MqTjXtYOi3A==}
     engines: {node: ^18 || >=20}
     peerDependencies:
       eslint: '>=8.44.0'
@@ -3598,6 +3598,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
